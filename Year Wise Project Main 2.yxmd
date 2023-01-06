@@ -1,0 +1,672 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Asus\Desktop\Sales 3.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sales 3.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ORDER NUMBER" source="File: C:\Users\Asus\Desktop\Sales 3.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="FIRSTNAME" size="255" source="File: C:\Users\Asus\Desktop\Sales 3.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="LASTNAME" size="255" source="File: C:\Users\Asus\Desktop\Sales 3.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="YEAR_ID" source="File: C:\Users\Asus\Desktop\Sales 3.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="STATUS" size="255" source="File: C:\Users\Asus\Desktop\Sales 3.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="PRODUCTLINE" size="255" source="File: C:\Users\Asus\Desktop\Sales 3.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="DEALSIZE" size="255" source="File: C:\Users\Asus\Desktop\Sales 3.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="CITY" size="255" source="File: C:\Users\Asus\Desktop\Sales 3.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="COUNTRY" size="255" source="File: C:\Users\Asus\Desktop\Sales 3.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Qty S1" source="File: C:\Users\Asus\Desktop\Sales 3.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Price S1" source="File: C:\Users\Asus\Desktop\Sales 3.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total S1" source="File: C:\Users\Asus\Desktop\Sales 3.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Asus\Desktop\Sales 2.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sales 2.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ORDER NUMBER" source="File: C:\Users\Asus\Desktop\Sales 2.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="FIRSTNAME" size="255" source="File: C:\Users\Asus\Desktop\Sales 2.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="LASTNAME" size="255" source="File: C:\Users\Asus\Desktop\Sales 2.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="YEAR_ID" source="File: C:\Users\Asus\Desktop\Sales 2.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="STATUS" size="255" source="File: C:\Users\Asus\Desktop\Sales 2.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="PRODUCTLINE" size="255" source="File: C:\Users\Asus\Desktop\Sales 2.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="DEALSIZE" size="255" source="File: C:\Users\Asus\Desktop\Sales 2.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="CITY" size="255" source="File: C:\Users\Asus\Desktop\Sales 2.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="COUNTRY" size="255" source="File: C:\Users\Asus\Desktop\Sales 2.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Qty S1" source="File: C:\Users\Asus\Desktop\Sales 2.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Price S1" source="File: C:\Users\Asus\Desktop\Sales 2.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total S1" source="File: C:\Users\Asus\Desktop\Sales 2.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Asus\Desktop\Sales 1.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sales 1.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ORDER NUMBER" source="File: C:\Users\Asus\Desktop\Sales 1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="FIRSTNAME" size="255" source="File: C:\Users\Asus\Desktop\Sales 1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="LASTNAME" size="255" source="File: C:\Users\Asus\Desktop\Sales 1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="YEAR_ID" source="File: C:\Users\Asus\Desktop\Sales 1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="STATUS" size="255" source="File: C:\Users\Asus\Desktop\Sales 1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="PRODUCTLINE" size="255" source="File: C:\Users\Asus\Desktop\Sales 1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="DEALSIZE" size="255" source="File: C:\Users\Asus\Desktop\Sales 1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="CITY" size="255" source="File: C:\Users\Asus\Desktop\Sales 1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="COUNTRY" size="255" source="File: C:\Users\Asus\Desktop\Sales 1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Qty S1" source="File: C:\Users\Asus\Desktop\Sales 1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Price S1" source="File: C:\Users\Asus\Desktop\Sales 1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total S1" source="File: C:\Users\Asus\Desktop\Sales 1.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="126" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ORDER NUMBER" selected="True" rename="ORDER ID" />
+            <SelectField field="YEAR_ID" selected="True" rename="YEAR" />
+            <SelectField field="PRODUCTLINE" selected="True" rename="PRODUCTS" />
+            <SelectField field="DEALSIZE" selected="True" rename="CATOGORY" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="126" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ORDER NUMBER" selected="True" rename="ORDER ID" />
+            <SelectField field="YEAR_ID" selected="True" rename="YEAR" />
+            <SelectField field="PRODUCTLINE" selected="True" rename="PRODUCTS" />
+            <SelectField field="DEALSIZE" selected="True" rename="CATOGORY" />
+            <SelectField field="Qty S1" selected="True" rename="Qty S2" />
+            <SelectField field="Price S1" selected="True" rename="Price S2" />
+            <SelectField field="Total S1" selected="True" rename="Total S2" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="126" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ORDER NUMBER" selected="True" rename="ORDER ID" />
+            <SelectField field="YEAR_ID" selected="True" rename="YEAR" />
+            <SelectField field="PRODUCTLINE" selected="True" rename="PRODUCTS" />
+            <SelectField field="DEALSIZE" selected="True" rename="CATOGORY" />
+            <SelectField field="Qty S1" selected="True" rename="Qty S3" />
+            <SelectField field="Price S1" selected="True" rename="Price S3" />
+            <SelectField field="Total S1" selected="True" rename="Total S3" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="198" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[FIRSTNAME]+' ' + [LASTNAME]" field="CUSTOMER NAME" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[CUSTOMER NAME = [FIRSTNAME]+' ' + [LASTNAME]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ORDER ID" selected="True" />
+            <SelectField field="FIRSTNAME" selected="False" />
+            <SelectField field="LASTNAME" selected="False" />
+            <SelectField field="CUSTOMER NAME" selected="True" />
+            <SelectField field="YEAR" selected="True" />
+            <SelectField field="STATUS" selected="True" />
+            <SelectField field="PRODUCTS" selected="True" />
+            <SelectField field="CATOGORY" selected="True" />
+            <SelectField field="CITY" selected="True" />
+            <SelectField field="COUNTRY" selected="True" />
+            <SelectField field="Qty S1" selected="True" />
+            <SelectField field="Price S1" selected="True" />
+            <SelectField field="Total S1" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="198" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[FIRSTNAME]+' ' + [LASTNAME]" field="CUSTOMER NAME" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[CUSTOMER NAME = [FIRSTNAME]+' ' + [LASTNAME]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ORDER ID" selected="True" />
+            <SelectField field="FIRSTNAME" selected="False" />
+            <SelectField field="LASTNAME" selected="False" />
+            <SelectField field="CUSTOMER NAME" selected="True" />
+            <SelectField field="YEAR" selected="True" />
+            <SelectField field="STATUS" selected="True" />
+            <SelectField field="PRODUCTS" selected="True" />
+            <SelectField field="CATOGORY" selected="True" />
+            <SelectField field="CITY" selected="True" />
+            <SelectField field="COUNTRY" selected="True" />
+            <SelectField field="Qty S1" selected="True" />
+            <SelectField field="Price S1" selected="True" />
+            <SelectField field="Total S1" selected="True" />
+            <SelectField field="Qty S2" selected="True" />
+            <SelectField field="Price S2" selected="True" />
+            <SelectField field="Total S2" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="198" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[FIRSTNAME]+' ' + [LASTNAME]" field="CUSTOMER NAME" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[CUSTOMER NAME = [FIRSTNAME]+' ' + [LASTNAME]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ORDER ID" selected="True" />
+            <SelectField field="FIRSTNAME" selected="False" />
+            <SelectField field="LASTNAME" selected="False" />
+            <SelectField field="CUSTOMER NAME" selected="True" />
+            <SelectField field="YEAR" selected="True" />
+            <SelectField field="STATUS" selected="True" />
+            <SelectField field="PRODUCTS" selected="True" />
+            <SelectField field="CATOGORY" selected="True" />
+            <SelectField field="CITY" selected="True" />
+            <SelectField field="COUNTRY" selected="True" />
+            <SelectField field="Qty S1" selected="True" />
+            <SelectField field="Price S1" selected="True" />
+            <SelectField field="Total S1" selected="True" />
+            <SelectField field="Qty S2" selected="True" />
+            <SelectField field="Price S2" selected="True" />
+            <SelectField field="Total S2" selected="True" />
+            <SelectField field="Qty S3" selected="True" />
+            <SelectField field="Price S3" selected="True" />
+            <SelectField field="Total S3" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="354" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="YEAR" action="GroupBy" rename="YEAR" />
+            <SummarizeField field="Qty S1" action="Sum" rename="Sum Qty S1" />
+            <SummarizeField field="Price S1" action="Sum" rename="Sum Price S1" />
+            <SummarizeField field="Total S1" action="Sum" rename="Sum Total S1" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="354" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="YEAR" action="GroupBy" rename="YEAR" />
+            <SummarizeField field="Qty S3" action="Sum" rename="Sum Qty S3" />
+            <SummarizeField field="Price S3" action="Sum" rename="Sum Price S3" />
+            <SummarizeField field="Total S3" action="Sum" rename="Sum Total S3" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="354" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="YEAR" action="GroupBy" rename="YEAR" />
+            <SummarizeField field="Qty S2" action="Sum" rename="Sum Qty S2" />
+            <SummarizeField field="Price S2" action="Sum" rename="Sum Price S2" />
+            <SummarizeField field="Total S2" action="Sum" rename="Sum Total S2" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="474" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="YEAR" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="YEAR" />
+            </JoinInfo>
+            <JoinInfo connection="#3">
+              <Field field="YEAR" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#2_YEAR" selected="False" rename="Input_#2_YEAR" />
+                <SelectField field="Input_#3_YEAR" selected="False" rename="Input_#3_YEAR" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="558" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="([Sum Qty S2]-[Sum Qty S1])/[Sum Qty S1]" field="Sum Qty S1 &amp; S2 % Change " size="19.2" type="FixedDecimal" />
+            <FormulaField expression="([Sum Qty S3]-[Sum Qty S2])/[Sum Qty S2]" field="Sum Qty S2 &amp; S3 % Change " size="19.2" type="FixedDecimal" />
+            <FormulaField expression="([Sum Price S2]-[Sum Price S1])/[Sum Price S1]" field="Sum Price S1 &amp; S2 % Change " size="19.2" type="FixedDecimal" />
+            <FormulaField expression="([Sum Price S3]-[Sum Price S2])/[Sum Price S2]" field="Sum Price S2 &amp; S3 % Change " size="19.2" type="FixedDecimal" />
+            <FormulaField expression="([Sum Total S2]-[Sum Total S1])/[Sum Total S1]" field="Sum Total S1 &amp; S2 % Change " size="19.2" type="FixedDecimal" />
+            <FormulaField expression="([Sum Total S3]-[Sum Total S2])/[Sum Total S2]" field="Sum Total S2 &amp; S3 % Change " size="19.2" type="FixedDecimal" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sum Qty S1 &amp; S2 % Change  = ([Sum Qty S2]-[Sum Qty S1])/[Sum Qty S1]
+Sum Qty S2 ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="630" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="YEAR" selected="True" />
+            <SelectField field="Sum Qty S1" selected="True" />
+            <SelectField field="Sum Qty S2" selected="True" />
+            <SelectField field="Sum Qty S3" selected="True" />
+            <SelectField field="Sum Qty S1 &amp; S2 % Change " selected="True" />
+            <SelectField field="Sum Qty S2 &amp; S3 % Change " selected="True" />
+            <SelectField field="Sum Price S1" selected="True" />
+            <SelectField field="Sum Price S2" selected="True" />
+            <SelectField field="Sum Price S3" selected="True" />
+            <SelectField field="Sum Price S1 &amp; S2 % Change " selected="True" />
+            <SelectField field="Sum Price S2 &amp; S3 % Change " selected="True" />
+            <SelectField field="Sum Total S1" selected="True" />
+            <SelectField field="Sum Total S2" selected="True" />
+            <SelectField field="Sum Total S3" selected="True" />
+            <SelectField field="Sum Total S1 &amp; S2 % Change " selected="True" />
+            <SelectField field="Sum Total S2 &amp; S3 % Change " selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="714" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\Asus\Desktop\Output.xlsx|||Year Wise</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>RemoveFile</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output.xlsx
+Query=Year Wise</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Year Wise Assignment 2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="b4edc8af-62c9-4071-9e40-d76fd518e89b" />
+      <Telemetry>
+        <PreviousWorkflowId value="94008e13-1a9b-47bd-b34e-53fc65c51271" />
+        <OriginWorkflowId value="94008e13-1a9b-47bd-b34e-53fc65c51271" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
